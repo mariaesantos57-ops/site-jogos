@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚔️ DreamQuest </title>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+        background:
+        linear-gradient(
+            rgba(0,0,0,0.35),
+            rgba(0,0,0,0.85)
+        ),
+        url("./img/fundo\ login.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.login{
+    background-color: #1e1e1e;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.25);
+    text-align: center;
+    border: 0.001px solid #4d2e72;
+
+    
+}
+
+h1{
+    color: #8B5CF6;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #121212;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+    border: 0.001px solid #4d2e72;
+}
+
+input:focus{
+    border-color: #8B5CF6;
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+    border: 0.001px solid #4d2e72;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #8B5CF6;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s;
+}
+
+button:hover{
+    background: #7C3AED;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+a{
+    display: inline-block;
+    margin-top: 25px; 
+    text-decoration: none;
+    color: #C4B5FD;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #8B5CF6;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="login">
+
+    <h1>⚔️ DreamQuest </h1>
+    <p>Entre na sua conta</p>
+
+    <form action="home.html">
+
+        <input type="email" placeholder="Digite seu e-mail">
+        <input type="password" placeholder="Digite sua senha">
+
+        <button type="submit">Entrar</button>
+
+    </form>
+
+    <a href="#">Criar conta</a>
+
+</div>
+
+</body>
+</html>
